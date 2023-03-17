@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"dogoz.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"dogoz.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="一个用来留下美好回忆和宝贵知识的地方">
@@ -210,7 +210,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2023-03-17 11:52:49 / Modified: 20:58:03" itemprop="dateCreated datePublished" datetime="2023-03-17T11:52:49+08:00">2023-03-17</time>
+              <time title="Created: 2023-03-17 11:52:49 / Modified: 21:28:43" itemprop="dateCreated datePublished" datetime="2023-03-17T11:52:49+08:00">2023-03-17</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -242,28 +242,15 @@
 <li>在资源管理器种显示隐藏项目</li>
 <li>进入博客目录的“.deploy_git.git”子目录，进入config文件</li>
 <li>打开config文件，添加如下内容</li>
-<li>&#96;&#96;&#96;<br>[user]<br>email&#x3D;Github邮箱<br>name&#x3D;Github用户名</li>
-</ul>
-<h3 id="2-xxx-packages-are-looking-for-funding"><a href="#2-xxx-packages-are-looking-for-funding" class="headerlink" title="2. xxx packages are looking for funding"></a>2. xxx packages are looking for funding</h3><h5 id="2-1-出现问题的主要代码："><a href="#2-1-出现问题的主要代码：" class="headerlink" title="2.1 出现问题的主要代码："></a>2.1 出现问题的主要代码：</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">xxx packages are looking for funding</span><br><span class="line">	run &#x27;npm fund&#x27; for details</span><br></pre></td></tr></table></figure>
-
-<h5 id="2-2-解决方法："><a href="#2-2-解决方法：" class="headerlink" title="2.2 解决方法："></a>2.2 解决方法：</h5><ul>
-<li>该提示与install过程无关，是下载完成后，因有开发者希望可以得到捐赠，此时会提示你是否要进行打赏。</li>
-<li>虽然可以通过<code>npm install --no-fund</code>来取消该提示的出现，但本人输入该指令后，hexo部署失败，仍不知原因。故不建议尝试。</li>
-</ul>
-<h3 id="3-hexo-本地与部署显示不一致问题"><a href="#3-hexo-本地与部署显示不一致问题" class="headerlink" title="3. hexo 本地与部署显示不一致问题"></a>3. hexo 本地与部署显示不一致问题</h3><h5 id="3-1-出现问题主要体现"><a href="#3-1-出现问题主要体现" class="headerlink" title="3.1 出现问题主要体现"></a>3.1 出现问题主要体现</h5><ul>
-<li>在配置本地搜索时，部署过去的local search显示出现异常，与本地显示不一样。</li>
-</ul>
-<h5 id="3-2-解决方法"><a href="#3-2-解决方法" class="headerlink" title="3.2 解决方法"></a>3.2 解决方法</h5><ul>
-<li><p>修改本地配置文件_config.yml中的url</p>
-</li>
-<li><pre><code># URL
-## If your site is put in a subdirectroy, set url as &quot;http://yoursite.com/child&quot; and root as &quot;/child/&quot;
-url: http://yourname.github.io
-root:/
-</code></pre>
-</li>
-</ul>
-
+<li>[user]<br>email&#x3D;Github邮箱<br>name&#x3D;Github用户名
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2023/03/17/%E2%80%9D%E7%BA%AF%E5%B0%8F%E7%99%BD%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%8F%AF%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91%E2%80%9C/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -313,7 +300,7 @@ root:/
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-03-17 20:51:34" itemprop="dateModified" datetime="2023-03-17T20:51:34+08:00">2023-03-17</time>
+                <time title="Modified: 2023-03-17 21:28:14" itemprop="dateModified" datetime="2023-03-17T21:28:14+08:00">2023-03-17</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -340,9 +327,15 @@ root:/
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>这是我的第一篇博文，是整个人生中的第一篇。<br>在前段时间，我曾注册过一个网站用以记录我的学习生活。但很可惜还没有发出第一篇博文，就被我注销了。<br>我当时给它起名叫“Dogz的家”，尽管它生命短暂，但它的离去仍让我惋惜哀伤。<br>它也教会了我很多东西，才使得我能相对轻松地搭建起我现在这个博客网页。</p>
-<p>我希望我能够善待、善用它；希望可以为我的学习、生活、工作提供一个留下美好回忆和宝贵知识的地方。</p>
-
+          <p>这是我的第一篇博文，是整个人生中的第一篇。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2023/03/16/%E7%BE%8E%E5%A5%BD%E7%9A%84%E9%97%AE%E5%80%99%EF%BC%81/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -463,7 +456,7 @@ root:/
   </span>
   <span class="author" itemprop="copyrightHolder">AvonLin</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
   </div>
 
         
@@ -489,7 +482,7 @@ root:/
 <script src="/js/motion.js"></script>
 
 
-<script src="/js/schemes/muse.js"></script>
+<script src="/js/schemes/pisces.js"></script>
 
 
 <script src="/js/next-boot.js"></script>

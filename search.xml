@@ -3,7 +3,9 @@
   <entry>
     <title>美好的问候！</title>
     <url>/2023/03/16/%E7%BE%8E%E5%A5%BD%E7%9A%84%E9%97%AE%E5%80%99%EF%BC%81/</url>
-    <content><![CDATA[<p>这是我的第一篇博文，是整个人生中的第一篇。<br>在前段时间，我曾注册过一个网站用以记录我的学习生活。但很可惜还没有发出第一篇博文，就被我注销了。<br>我当时给它起名叫“Dogz的家”，尽管它生命短暂，但它的离去仍让我惋惜哀伤。<br>它也教会了我很多东西，才使得我能相对轻松地搭建起我现在这个博客网页。</p>
+    <content><![CDATA[<p>这是我的第一篇博文，是整个人生中的第一篇。</p>
+<span id="more"></span>
+<p>在前段时间，我曾注册过一个网站用以记录我的学习生活。但很可惜还没有发出第一篇博文，就被我注销了。<br>我当时给它起名叫“Dogz的家”，尽管它生命短暂，但它的离去仍让我惋惜哀伤。<br>它也教会了我很多东西，才使得我能相对轻松地搭建起我现在这个博客网页。</p>
 <p>我希望我能够善待、善用它；希望可以为我的学习、生活、工作提供一个留下美好回忆和宝贵知识的地方。</p>
 ]]></content>
       <categories>
@@ -19,7 +21,7 @@
 <li>在资源管理器种显示隐藏项目</li>
 <li>进入博客目录的“.deploy_git.git”子目录，进入config文件</li>
 <li>打开config文件，添加如下内容</li>
-<li>&#96;&#96;&#96;<br>[user]<br>email&#x3D;Github邮箱<br>name&#x3D;Github用户名</li>
+<li>[user]<br>email&#x3D;Github邮箱<br>name&#x3D;Github用户名<span id="more"></span></li>
 </ul>
 <h3 id="2-xxx-packages-are-looking-for-funding"><a href="#2-xxx-packages-are-looking-for-funding" class="headerlink" title="2. xxx packages are looking for funding"></a>2. xxx packages are looking for funding</h3><h5 id="2-1-出现问题的主要代码："><a href="#2-1-出现问题的主要代码：" class="headerlink" title="2.1 出现问题的主要代码："></a>2.1 出现问题的主要代码：</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">xxx packages are looking for funding</span><br><span class="line">	run &#x27;npm fund&#x27; for details</span><br></pre></td></tr></table></figure>
 
@@ -33,10 +35,10 @@
 <h5 id="3-2-解决方法"><a href="#3-2-解决方法" class="headerlink" title="3.2 解决方法"></a>3.2 解决方法</h5><ul>
 <li><p>修改本地配置文件_config.yml中的url</p>
 </li>
-<li><pre><code># URL
-## If your site is put in a subdirectroy, set url as &quot;http://yoursite.com/child&quot; and root as &quot;/child/&quot;
-url: http://yourname.github.io
-root:/
+<li><pre><code>  # URL
+  ## If your site is put in a subdirectroy, set url as &quot;http://yoursite.com/child&quot; and root as &quot;/child/&quot;
+  url: http://yourname.github.io
+  root:/
 </code></pre>
 </li>
 </ul>
