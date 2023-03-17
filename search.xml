@@ -16,6 +16,19 @@
 <li>该提示与install过程无关，是下载完成后，因有开发者希望可以得到捐赠，此时会提示你是否要进行打赏。</li>
 <li>虽然可以通过<code>npm install --no-fund</code></li>
 </ul>
+<h3 id="3-hexo-本地与部署显示不一致问题"><a href="#3-hexo-本地与部署显示不一致问题" class="headerlink" title="3. hexo 本地与部署显示不一致问题"></a>3. hexo 本地与部署显示不一致问题</h3><h5 id="3-1-出现问题主要体现"><a href="#3-1-出现问题主要体现" class="headerlink" title="3.1 出现问题主要体现"></a>3.1 出现问题主要体现</h5><ul>
+<li>在配置本地搜索时，部署过去的local search显示出现异常，与本地显示不一样。</li>
+</ul>
+<h5 id="3-2-解决方法"><a href="#3-2-解决方法" class="headerlink" title="3.2 解决方法"></a>3.2 解决方法</h5><ul>
+<li><p>修改本地配置文件_config.yml中的url</p>
+</li>
+<li><pre><code># URL
+## If your site is put in a subdirectroy, set url as &quot;http://yoursite.com/child&quot; and root as &quot;/child/&quot;
+url: http://yourname.github.io
+root:/
+</code></pre>
+</li>
+</ul>
 ]]></content>
       <tags>
         <tag>建站</tag>

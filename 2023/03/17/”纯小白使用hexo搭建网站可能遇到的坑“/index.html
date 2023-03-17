@@ -28,7 +28,7 @@
 <meta property="og:description" content="1. hexo d错误：fatal: unable to auto-detect email address1.1 出现问题的主要error：1error: failed to push some refs to &quot;https:&#x2F;&#x2F;github.com&#x2F;xxxxxxxx&quot; 1.2 解决方法： 在资源管理器种显示隐藏项目 进入博客目录的“.deploy_git.git”子目录，进">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-03-17T03:52:49.000Z">
-<meta property="article:modified_time" content="2023-03-17T09:49:14.736Z">
+<meta property="article:modified_time" content="2023-03-17T10:08:44.719Z">
 <meta property="article:author" content="AvonLin">
 <meta property="article:tag" content="建站">
 <meta name="twitter:card" content="summary">
@@ -203,7 +203,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2023-03-17 11:52:49 / Modified: 17:49:14" itemprop="dateCreated datePublished" datetime="2023-03-17T11:52:49+08:00">2023-03-17</time>
+              <time title="Created: 2023-03-17 11:52:49 / Modified: 18:08:44" itemprop="dateCreated datePublished" datetime="2023-03-17T11:52:49+08:00">2023-03-17</time>
             </span>
 
           
@@ -229,6 +229,19 @@
 <h5 id="2-2-解决方法："><a href="#2-2-解决方法：" class="headerlink" title="2.2 解决方法："></a>2.2 解决方法：</h5><ul>
 <li>该提示与install过程无关，是下载完成后，因有开发者希望可以得到捐赠，此时会提示你是否要进行打赏。</li>
 <li>虽然可以通过<code>npm install --no-fund</code></li>
+</ul>
+<h3 id="3-hexo-本地与部署显示不一致问题"><a href="#3-hexo-本地与部署显示不一致问题" class="headerlink" title="3. hexo 本地与部署显示不一致问题"></a>3. hexo 本地与部署显示不一致问题</h3><h5 id="3-1-出现问题主要体现"><a href="#3-1-出现问题主要体现" class="headerlink" title="3.1 出现问题主要体现"></a>3.1 出现问题主要体现</h5><ul>
+<li>在配置本地搜索时，部署过去的local search显示出现异常，与本地显示不一样。</li>
+</ul>
+<h5 id="3-2-解决方法"><a href="#3-2-解决方法" class="headerlink" title="3.2 解决方法"></a>3.2 解决方法</h5><ul>
+<li><p>修改本地配置文件_config.yml中的url</p>
+</li>
+<li><pre><code># URL
+## If your site is put in a subdirectroy, set url as &quot;http://yoursite.com/child&quot; and root as &quot;/child/&quot;
+url: http://yourname.github.io
+root:/
+</code></pre>
+</li>
 </ul>
 
     </div>
@@ -310,7 +323,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-hexo-d%E9%94%99%E8%AF%AF%EF%BC%9Afatal-unable-to-auto-detect-email-address"><span class="nav-number">1.</span> <span class="nav-text">1. hexo d错误：fatal: unable to auto-detect email address</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-1-%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98%E7%9A%84%E4%B8%BB%E8%A6%81error%EF%BC%9A"><span class="nav-number">1.0.1.</span> <span class="nav-text">1.1 出现问题的主要error：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-2-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%EF%BC%9A"><span class="nav-number">1.0.2.</span> <span class="nav-text">1.2 解决方法：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-xxx-packages-are-looking-for-funding"><span class="nav-number">2.</span> <span class="nav-text">2. xxx packages are looking for funding</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#2-1-%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98%E7%9A%84%E4%B8%BB%E8%A6%81%E4%BB%A3%E7%A0%81%EF%BC%9A"><span class="nav-number">2.0.1.</span> <span class="nav-text">2.1 出现问题的主要代码：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-2-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%EF%BC%9A"><span class="nav-number">2.0.2.</span> <span class="nav-text">2.2 解决方法：</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-hexo-d%E9%94%99%E8%AF%AF%EF%BC%9Afatal-unable-to-auto-detect-email-address"><span class="nav-number">1.</span> <span class="nav-text">1. hexo d错误：fatal: unable to auto-detect email address</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-1-%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98%E7%9A%84%E4%B8%BB%E8%A6%81error%EF%BC%9A"><span class="nav-number">1.0.1.</span> <span class="nav-text">1.1 出现问题的主要error：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-2-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%EF%BC%9A"><span class="nav-number">1.0.2.</span> <span class="nav-text">1.2 解决方法：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-xxx-packages-are-looking-for-funding"><span class="nav-number">2.</span> <span class="nav-text">2. xxx packages are looking for funding</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#2-1-%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98%E7%9A%84%E4%B8%BB%E8%A6%81%E4%BB%A3%E7%A0%81%EF%BC%9A"><span class="nav-number">2.0.1.</span> <span class="nav-text">2.1 出现问题的主要代码：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-2-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%EF%BC%9A"><span class="nav-number">2.0.2.</span> <span class="nav-text">2.2 解决方法：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-hexo-%E6%9C%AC%E5%9C%B0%E4%B8%8E%E9%83%A8%E7%BD%B2%E6%98%BE%E7%A4%BA%E4%B8%8D%E4%B8%80%E8%87%B4%E9%97%AE%E9%A2%98"><span class="nav-number">3.</span> <span class="nav-text">3. hexo 本地与部署显示不一致问题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#3-1-%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98%E4%B8%BB%E8%A6%81%E4%BD%93%E7%8E%B0"><span class="nav-number">3.0.1.</span> <span class="nav-text">3.1 出现问题主要体现</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-2-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95"><span class="nav-number">3.0.2.</span> <span class="nav-text">3.2 解决方法</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
