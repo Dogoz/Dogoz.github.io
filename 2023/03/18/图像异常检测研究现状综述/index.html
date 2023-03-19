@@ -14,6 +14,8 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
@@ -32,7 +34,7 @@
 <meta property="og:image" content="http://dogoz.github.io/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%BC%82%E5%B8%B8.png">
 <meta property="og:image" content="http://dogoz.github.io/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/%E5%9B%BE%E8%B1%A1%E5%BC%82%E5%B8%B8%E5%88%86%E7%B1%BB.png">
 <meta property="article:published_time" content="2023-03-17T16:59:01.000Z">
-<meta property="article:modified_time" content="2023-03-19T09:49:04.012Z">
+<meta property="article:modified_time" content="2023-03-19T10:42:20.110Z">
 <meta property="article:author" content="AvonLin">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://dogoz.github.io/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/%E7%82%B9%E5%BC%82%E5%B8%B8.png">
@@ -223,7 +225,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-03-19 17:49:04" itemprop="dateModified" datetime="2023-03-19T17:49:04+08:00">2023-03-19</time>
+                <time title="Modified: 2023-03-19 18:42:20" itemprop="dateModified" datetime="2023-03-19T18:42:20+08:00">2023-03-19</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -325,7 +327,20 @@
 <li>整体地给出是否异常的判断。  <img src="/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/图象异常分类.png" alt="图象异常分类" style="zoom:50%;"></li>
 </ul>
 </li>
-<li>定量异常的定位，类似于<strong>目标检测</strong>或<strong>图像分割任务</strong>。</li>
+<li>定量异常的定位，类似于<strong>目标检测</strong>或<strong>图像分割任务</strong>。<ul>
+<li>需要得到异常区域的位置信息。根据具体的图像背景，又可分为以下几类：<ul>
+<li>均匀背景：内容较为单一的场景。eg：磨砂玻璃表面对局部缺陷的定位 or 深色山区图像中对盘山公路的定位。</li>
+<li>纹理背景：主要出现在工业生产领域。根据纹理形态又可分为：<strong>简单纹理、周期性纹理、随即纹理</strong>。共3种。<ul>
+<li>简单纹理：因光照和材质反光等因素影响，在原本均匀的物体表面产生的一些非均匀的纹理背景。eg：钢板表面图像。</li>
+<li>周期性纹理：各类由大量重复单元组成的具有显著周期性的图像。eg：布匹图像。</li>
+<li>随即纹理：由无规则结构组成的图像背景。eg：声呐和纳米材料图像。</li>
+</ul>
+</li>
+<li>结构背景：一类更为广泛的图像背景。一般具有结构复杂、个体差异大、语义信息丰富等特点，需进行整体分析。eg：各种医学图像。</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -431,6 +446,11 @@
       </div>
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="/ShengFeng.Lin.cn@outlook.com" title="E-Mail → ShengFeng.Lin.cn@outlook.com"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
 
 
 
