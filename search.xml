@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>美好的问候！</title>
-    <url>/2023/03/16/%E7%BE%8E%E5%A5%BD%E7%9A%84%E9%97%AE%E5%80%99%EF%BC%81/</url>
-    <content><![CDATA[<p>这是我的第一篇博文，是整个人生中的第一篇。</p>
-<span id="more"></span>
-<p>在前段时间，我曾注册过一个网站用以记录我的学习生活。但很可惜还没有发出第一篇博文，就被我注销了。<br>我当时给它起名叫“Dogz的家”，尽管它生命短暂，但它的离去仍让我惋惜哀伤。<br>它也教会了我很多东西，才使得我能相对轻松地搭建起我现在这个博客网页。</p>
-<p>我希望我能够善待、善用它；希望可以为我的学习、生活、工作提供一个留下美好回忆和宝贵知识的地方。</p>
-]]></content>
-      <categories>
-        <category>Chat</category>
-        <category>blessing</category>
-      </categories>
-  </entry>
-  <entry>
     <title>纯小白使用hexo搭建网站可能遇到的坑</title>
     <url>/2023/03/17/%E2%80%9D%E7%BA%AF%E5%B0%8F%E7%99%BD%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%8F%AF%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91%E2%80%9C/</url>
     <content><![CDATA[<h3 id="1-HEXO个人博客发布遇到问题，hexo-d错误：fatal-unable-to-auto-detect-email-address"><a href="#1-HEXO个人博客发布遇到问题，hexo-d错误：fatal-unable-to-auto-detect-email-address" class="headerlink" title="1 HEXO个人博客发布遇到问题，hexo d错误：fatal: unable to auto-detect email address"></a>1 HEXO个人博客发布遇到问题，hexo d错误：fatal: unable to auto-detect email address</h3><h5 id="1-1-出现问题的主要error："><a href="#1-1-出现问题的主要error：" class="headerlink" title="1.1 出现问题的主要error："></a>1.1 出现问题的主要error：</h5><figure class="highlight subunit"><table><tr><td class="code"><pre><span class="line"><span class="keyword">error: </span>failed to push some refs to &quot;https://github.com/xxxxxxxx&quot;</span><br></pre></td></tr></table></figure>
@@ -152,6 +139,19 @@
 ]]></content>
       <categories>
         <category>Reading essay</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>美好的问候！</title>
+    <url>/2023/03/16/%E7%BE%8E%E5%A5%BD%E7%9A%84%E9%97%AE%E5%80%99%EF%BC%81/</url>
+    <content><![CDATA[<p>这是我的第一篇博文，是整个人生中的第一篇。</p>
+<span id="more"></span>
+<p>在前段时间，我曾注册过一个网站用以记录我的学习生活。但很可惜还没有发出第一篇博文，就被我注销了。<br>我当时给它起名叫“Dogz的家”，尽管它生命短暂，但它的离去仍让我惋惜哀伤。<br>它也教会了我很多东西，才使得我能相对轻松地搭建起我现在这个博客网页。</p>
+<p>我希望我能够善待、善用它；希望可以为我的学习、生活、工作提供一个留下美好回忆和宝贵知识的地方。</p>
+]]></content>
+      <categories>
+        <category>Chat</category>
+        <category>blessing</category>
       </categories>
   </entry>
 </search>
