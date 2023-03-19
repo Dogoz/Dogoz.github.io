@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>美好的问候！</title>
-    <url>/2023/03/16/%E7%BE%8E%E5%A5%BD%E7%9A%84%E9%97%AE%E5%80%99%EF%BC%81/</url>
-    <content><![CDATA[<p>这是我的第一篇博文，是整个人生中的第一篇。</p>
-<span id="more"></span>
-<p>在前段时间，我曾注册过一个网站用以记录我的学习生活。但很可惜还没有发出第一篇博文，就被我注销了。<br>我当时给它起名叫“Dogz的家”，尽管它生命短暂，但它的离去仍让我惋惜哀伤。<br>它也教会了我很多东西，才使得我能相对轻松地搭建起我现在这个博客网页。</p>
-<p>我希望我能够善待、善用它；希望可以为我的学习、生活、工作提供一个留下美好回忆和宝贵知识的地方。</p>
-]]></content>
-      <categories>
-        <category>Chat</category>
-        <category>blessing</category>
-      </categories>
-  </entry>
-  <entry>
     <title>纯小白使用hexo搭建网站可能遇到的坑</title>
     <url>/2023/03/17/%E2%80%9D%E7%BA%AF%E5%B0%8F%E7%99%BD%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%8F%AF%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91%E2%80%9C/</url>
     <content><![CDATA[<h3 id="1-HEXO个人博客发布遇到问题，hexo-d错误：fatal-unable-to-auto-detect-email-address"><a href="#1-HEXO个人博客发布遇到问题，hexo-d错误：fatal-unable-to-auto-detect-email-address" class="headerlink" title="1 HEXO个人博客发布遇到问题，hexo d错误：fatal: unable to auto-detect email address"></a>1 HEXO个人博客发布遇到问题，hexo d错误：fatal: unable to auto-detect email address</h3><h5 id="1-1-出现问题的主要error："><a href="#1-1-出现问题的主要error：" class="headerlink" title="1.1 出现问题的主要error："></a>1.1 出现问题的主要error：</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">error: failed to push some refs to &quot;https://github.com/xxxxxxxx&quot;</span><br></pre></td></tr></table></figure>
@@ -48,6 +35,110 @@
       <categories>
         <category>Set up a blog</category>
         <category>Solutions to Problems</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>图像异常检测研究现状综述</title>
+    <url>/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/</url>
+    <content><![CDATA[<h1 id="图像异常检测研究现状综述"><a href="#图像异常检测研究现状综述" class="headerlink" title="图像异常检测研究现状综述"></a>图像异常检测研究现状综述</h1><h2 id="吕承侃-沈飞-张正涛-张峰-自动化学报-2022"><a href="#吕承侃-沈飞-张正涛-张峰-自动化学报-2022" class="headerlink" title="吕承侃, 沈飞, 张正涛, 张峰. 自动化学报, 2022"></a>吕承侃, 沈飞, 张正涛, 张峰. 自动化学报, 2022</h2><span id="more"></span>
+
+<h3 id="一-研究背景"><a href="#一-研究背景" class="headerlink" title="一. 研究背景"></a>一. 研究背景</h3><h4 id="1-1-主要内容"><a href="#1-1-主要内容" class="headerlink" title="1.1 主要内容"></a>1.1 主要内容</h4><h5 id="1-1-1"><a href="#1-1-1" class="headerlink" title="1.1.1"></a>1.1.1</h5><ul>
+<li>图像异常检测是<strong>计算机视觉</strong>领域课题。</li>
+<li>在<strong>不使用真实异常样本</strong>的情况下，利用<strong>现有的正常样本构建</strong>模型以检测可能出现的各种异常情况。</li>
+<li>工业外观缺陷检测、医学图像分析、高光谱图像处理等领域。</li>
+</ul>
+<h5 id="1-1-2-行文结构"><a href="#1-1-2-行文结构" class="headerlink" title="1.1.2 行文结构"></a>1.1.2 行文结构</h5><ul>
+<li>第 1 节将介绍异常的定义以及常见的形态。</li>
+<li>第 2 节根据模型构建过程中有无神经网络的参与, 将现有的图像异常检测算法分为传统方法和基于深度学习两大类并分别进行综述与分析。</li>
+<li>第 3 节将介绍图像异常检测中常用的数据集。</li>
+<li>第 4 节将介绍在图像异常检测当中面临的主要挑战。</li>
+<li>第 5 节将综合图像异常检测的研究现状对未来可能的发展方向进行展望.。</li>
+</ul>
+<h4 id="1-2-研究情况"><a href="#1-2-研究情况" class="headerlink" title="1.2 研究情况"></a>1.2 研究情况</h4><ul>
+<li><p>早期的异常检测算法大多应用于<strong>数据挖掘</strong>领域。</p>
+</li>
+<li><p>传统的目标检测算法很大一部分属于<strong>监督学习</strong>的范畴。</p>
+<ul>
+<li>监督学习：需要搜集足够的目标类别样本并进行精确的标注。</li>
+</ul>
+</li>
+<li><p>在异常检测中模型是通过<strong>分析与正常样本之间的差异</strong>来检测异常样本</p>
+</li>
+<li><p>图像异常检测的应用领域如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th>应用领域</th>
+<th>具体应用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>缺陷检测</td>
+<td>产品表面检测包括布匹、玻璃、钢板、水泥等纹理表面以及印制电路板、酒瓶等物体表面</td>
+</tr>
+<tr>
+<td>医学影像分析</td>
+<td>核磁共振图像、虹膜图像、眼底视网膜图像等医学图像中检测可能病变的区域</td>
+</tr>
+<tr>
+<td>高光谱图像处理</td>
+<td>海面船舶检测、地面异常区域检测、机场飞机定位</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<h3 id="二-异常的定义以及常见的异常类型"><a href="#二-异常的定义以及常见的异常类型" class="headerlink" title="二. 异常的定义以及常见的异常类型"></a>二. 异常的定义以及常见的异常类型</h3><h4 id="2-1-异常的定义"><a href="#2-1-异常的定义" class="headerlink" title="2.1 异常的定义"></a>2.1 异常的定义</h4><ul>
+<li><p>异常，又被称作<strong>离群值</strong>，是一个在<strong>数据挖掘</strong>领域常见的概念。</p>
+</li>
+<li><p>Hawkins等将一场定义为<strong>与其余观测结果完全不同，以至于怀疑其是由不同机制产生的观测值</strong>。</p>
+</li>
+<li><p>异常样本分为3个类别：点异常、上下文异常、集群异常。</p>
+<ul>
+<li>点异常：某些严重偏离正常数据分布范围的观测值。</li>
+</ul>
+  <img src="/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/点异常.png" style="zoom:67%;">
+  
+<ul>
+<li>上下文异常：该观测值虽在正常数据分布范围内，但联合周围数据一起分析就会表现出显著异常。</li>
+</ul>
+<p>  <img src="/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/%E9%9B%86%E7%BE%A4%E5%BC%82%E5%B8%B8.png"></p>
+<ul>
+<li><p>集群异常：又称模式异常。由一系列观测结果聚合而成并且与正常数据存在差异。在该类异常中，可能单独看其中任意一个点都不属于异常。但当一系列点一起出现是，就属于异常。</p>
+<img src="/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/上下文异常.png" alt="上下文异常" style="zoom:67%;"></li>
+</ul>
+</li>
+</ul>
+<h4 id="2-2-图像数据种的异常"><a href="#2-2-图像数据种的异常" class="headerlink" title="2.2 图像数据种的异常"></a>2.2 图像数据种的异常</h4><ul>
+<li><p>图像数据中每一个像素点上的像素值就对应着一个观测结果。</p>
+</li>
+<li><p>大部分图像异常检测任务中，需联合分析<strong>图像背景</strong>以及<strong>周围像素信息</strong>来进行分类。</p>
+</li>
+<li><p>图像异常检测任务根据异常的形态，可以分为：定性异常的分类、定量异常的定位，两个类别。</p>
+<ul>
+<li>定性异常的分类，类似于传统图像识别任务中，<strong>图像分类任务</strong>。<ul>
+<li>整体地给出是否异常的判断。  <img src="/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/图象异常分类.png" alt="图象异常分类" style="zoom:50%;"></li>
+</ul>
+</li>
+<li>定量异常的定位，类似于<strong>目标检测</strong>或<strong>图像分割任务</strong>。</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Reading essay</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>美好的问候！</title>
+    <url>/2023/03/16/%E7%BE%8E%E5%A5%BD%E7%9A%84%E9%97%AE%E5%80%99%EF%BC%81/</url>
+    <content><![CDATA[<p>这是我的第一篇博文，是整个人生中的第一篇。</p>
+<span id="more"></span>
+<p>在前段时间，我曾注册过一个网站用以记录我的学习生活。但很可惜还没有发出第一篇博文，就被我注销了。<br>我当时给它起名叫“Dogz的家”，尽管它生命短暂，但它的离去仍让我惋惜哀伤。<br>它也教会了我很多东西，才使得我能相对轻松地搭建起我现在这个博客网页。</p>
+<p>我希望我能够善待、善用它；希望可以为我的学习、生活、工作提供一个留下美好回忆和宝贵知识的地方。</p>
+]]></content>
+      <categories>
+        <category>Chat</category>
+        <category>blessing</category>
       </categories>
   </entry>
 </search>
