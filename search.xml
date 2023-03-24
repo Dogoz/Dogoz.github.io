@@ -50,7 +50,8 @@
   <entry>
     <title>图像异常检测研究现状综述</title>
     <url>/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/</url>
-    <content><![CDATA[<h1 id="图像异常检测研究现状综述"><a href="#图像异常检测研究现状综述" class="headerlink" title="图像异常检测研究现状综述"></a>图像异常检测研究现状综述</h1><h2 id="吕承侃-沈飞-张正涛-张峰-自动化学报-2022"><a href="#吕承侃-沈飞-张正涛-张峰-自动化学报-2022" class="headerlink" title="吕承侃, 沈飞, 张正涛, 张峰. 自动化学报, 2022"></a>吕承侃, 沈飞, 张正涛, 张峰. 自动化学报, 2022</h2><span id="more"></span>
+    <content><![CDATA[<p>​        图像异常检测是<strong>计算机视觉</strong>领域中，缺陷检测、图像分析、图像处理等方向的技术方法。本篇博客记录的该技术的<strong>传统与当代主流方法对比</strong>、<strong>各领域中不同技术分支的应用</strong>、<strong>各技术分支对未来的展望与不足</strong>等内容。</p>
+<span id="more"></span>
 
 <h3 id="一-研究背景"><a href="#一-研究背景" class="headerlink" title="一. 研究背景"></a>一. 研究背景</h3><h4 id="1-1-主要内容"><a href="#1-1-主要内容" class="headerlink" title="1.1 主要内容"></a>1.1 主要内容</h4><h5 id="1-1-1"><a href="#1-1-1" class="headerlink" title="1.1.1"></a>1.1.1</h5><ul>
 <li>图像异常检测是<strong>计算机视觉</strong>领域课题。</li>
@@ -321,9 +322,9 @@
       </categories>
   </entry>
   <entry>
-    <title>z某报考</title>
+    <title>报考</title>
     <url>/2023/03/20/%E7%BF%9F%E6%99%93%E5%9D%A4%E6%8A%A5%E8%80%83/</url>
-    <content><![CDATA[<h1 id="导言"><a href="#导言" class="headerlink" title="导言"></a>导言</h1><p>z某的报考记录</p>
+    <content><![CDATA[<h1 id="导言"><a href="#导言" class="headerlink" title="导言"></a>导言</h1><p>考研的报考记录，博主2024届，数据来源为22、23届。</p>
 <span id="more"></span>
 
 
@@ -353,10 +354,45 @@
 <h3 id="上海科技大学-350"><a href="#上海科技大学-350" class="headerlink" title="上海科技大学 350"></a>上海科技大学 350</h3><ul>
 <li>数一 英一</li>
 </ul>
-]]></content>
+<h1 id="WPY报考实录"><a href="#WPY报考实录" class="headerlink" title="WPY报考实录"></a>WPY报考实录</h1><h2 id="江苏"><a href="#江苏" class="headerlink" title="江苏"></a>江苏</h2><h3 id="南京大学"><a href="#南京大学" class="headerlink" title="南京大学"></a>南京大学</h3>]]></content>
       <categories>
         <category>assist</category>
         <category>register</category>
       </categories>
+      <tags>
+        <tag>wangpuy cpc</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小白hexo-next主题最基础调试建议</title>
+    <url>/2023/03/23/%E5%B0%8F%E7%99%BDhexo-next%E4%B8%BB%E9%A2%98%E6%9C%80%E5%9F%BA%E7%A1%80%E8%B0%83%E8%AF%95%E5%BB%BA%E8%AE%AE/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​        在上一篇本系列博客中，已经搭建好的最最原始的Hexo&amp;Github Pages的博客框架。但我们浏览你的网站就会发现，现在它既没有一个有条理、整齐的分类检索系统，你写的文章也会直接被铺在主页上。所以我们要进行一些最基本的网站调试工作。</p>
+<span id="more"></span>
+
+<h2 id="一、配置Next主题"><a href="#一、配置Next主题" class="headerlink" title="一、配置Next主题"></a>一、配置Next主题</h2><h3 id="1-1-选择主题"><a href="#1-1-选择主题" class="headerlink" title="1.1 选择主题"></a>1.1 选择主题</h3>]]></content>
+      <categories>
+        <category>Set up a blog</category>
+        <category>Procedure</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>简单理解信息论与神经网络</title>
+    <url>/2023/03/23/%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3%E4%BF%A1%E6%81%AF%E8%AE%BA%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​        在Ian Goodfellow的《深度学习》(花书) 中，多次提到了<strong>信息论</strong>，在本篇博文中，我将简单阐述理解一下信息论与神经网络之间的联系与融合。</p>
+<span id="more"></span>
+
+<h1 id="一、大佬的文章"><a href="#一、大佬的文章" class="headerlink" title="一、大佬的文章"></a>一、大佬的文章</h1><h2 id="Tishby"><a href="#Tishby" class="headerlink" title="Tishby"></a>Tishby</h2><h3 id="Deep-learning-and-the-Information-Bottleneck-Principe"><a href="#Deep-learning-and-the-Information-Bottleneck-Principe" class="headerlink" title="Deep learning and the Information Bottleneck Principe"></a>Deep learning and the Information Bottleneck Principe</h3>]]></content>
+      <categories>
+        <category>Learning AI</category>
+      </categories>
+      <tags>
+        <tag>Information theory</tag>
+        <tag>Deep learning</tag>
+      </tags>
   </entry>
 </search>

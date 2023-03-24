@@ -22,19 +22,19 @@
     var CONFIG = {"hostname":"dogoz.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="图像异常检测研究现状综述吕承侃, 沈飞, 张正涛, 张峰. 自动化学报, 2022">
+  <meta name="description" content="​        图像异常检测是计算机视觉领域中，缺陷检测、图像分析、图像处理等方向的技术方法。本篇博客记录的该技术的传统与当代主流方法对比、各领域中不同技术分支的应用、各技术分支对未来的展望与不足等内容。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="图像异常检测研究现状综述">
 <meta property="og:url" content="http://dogoz.github.io/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/index.html">
 <meta property="og:site_name" content="Avon.Lin的家">
-<meta property="og:description" content="图像异常检测研究现状综述吕承侃, 沈飞, 张正涛, 张峰. 自动化学报, 2022">
+<meta property="og:description" content="​        图像异常检测是计算机视觉领域中，缺陷检测、图像分析、图像处理等方向的技术方法。本篇博客记录的该技术的传统与当代主流方法对比、各领域中不同技术分支的应用、各技术分支对未来的展望与不足等内容。">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://dogoz.github.io/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/%E7%82%B9%E5%BC%82%E5%B8%B8.png">
 <meta property="og:image" content="http://dogoz.github.io/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%BC%82%E5%B8%B8.png">
 <meta property="og:image" content="http://dogoz.github.io/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/%E9%9B%86%E7%BE%A4%E5%BC%82%E5%B8%B8.png">
 <meta property="og:image" content="http://dogoz.github.io/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/%E5%9B%BE%E8%B1%A1%E5%BC%82%E5%B8%B8%E5%88%86%E7%B1%BB.png">
 <meta property="article:published_time" content="2023-03-17T16:59:01.000Z">
-<meta property="article:modified_time" content="2023-03-20T09:14:48.413Z">
+<meta property="article:modified_time" content="2023-03-23T02:30:36.520Z">
 <meta property="article:author" content="AvonLin">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://dogoz.github.io/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/%E7%82%B9%E5%BC%82%E5%B8%B8.png">
@@ -225,7 +225,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-03-20 17:14:48" itemprop="dateModified" datetime="2023-03-20T17:14:48+08:00">2023-03-20</time>
+                <time title="Modified: 2023-03-23 10:30:36" itemprop="dateModified" datetime="2023-03-23T10:30:36+08:00">2023-03-23</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -248,7 +248,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="图像异常检测研究现状综述"><a href="#图像异常检测研究现状综述" class="headerlink" title="图像异常检测研究现状综述"></a>图像异常检测研究现状综述</h1><h2 id="吕承侃-沈飞-张正涛-张峰-自动化学报-2022"><a href="#吕承侃-沈飞-张正涛-张峰-自动化学报-2022" class="headerlink" title="吕承侃, 沈飞, 张正涛, 张峰. 自动化学报, 2022"></a>吕承侃, 沈飞, 张正涛, 张峰. 自动化学报, 2022</h2><span id="more"></span>
+        <p>​        图像异常检测是<strong>计算机视觉</strong>领域中，缺陷检测、图像分析、图像处理等方向的技术方法。本篇博客记录的该技术的<strong>传统与当代主流方法对比</strong>、<strong>各领域中不同技术分支的应用</strong>、<strong>各技术分支对未来的展望与不足</strong>等内容。</p>
+<span id="more"></span>
 
 <h3 id="一-研究背景"><a href="#一-研究背景" class="headerlink" title="一. 研究背景"></a>一. 研究背景</h3><h4 id="1-1-主要内容"><a href="#1-1-主要内容" class="headerlink" title="1.1 主要内容"></a>1.1 主要内容</h4><h5 id="1-1-1"><a href="#1-1-1" class="headerlink" title="1.1.1"></a>1.1.1</h5><ul>
 <li>图像异常检测是<strong>计算机视觉</strong>领域课题。</li>
@@ -406,8 +407,8 @@
       <i class="fa fa-chevron-left"></i> 纯小白使用hexo搭建网站可能遇到的坑
     </a></div>
       <div class="post-nav-item">
-    <a href="/2023/03/20/%E7%BF%9F%E6%99%93%E5%9D%A4%E6%8A%A5%E8%80%83/" rel="next" title="z某报考">
-      z某报考 <i class="fa fa-chevron-right"></i>
+    <a href="/2023/03/20/%E7%BF%9F%E6%99%93%E5%9D%A4%E6%8A%A5%E8%80%83/" rel="next" title="报考">
+      报考 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -467,7 +468,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0"><span class="nav-text">图像异常检测研究现状综述</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%95%E6%89%BF%E4%BE%83-%E6%B2%88%E9%A3%9E-%E5%BC%A0%E6%AD%A3%E6%B6%9B-%E5%BC%A0%E5%B3%B0-%E8%87%AA%E5%8A%A8%E5%8C%96%E5%AD%A6%E6%8A%A5-2022"><span class="nav-text">吕承侃, 沈飞, 张正涛, 张峰. 自动化学报, 2022</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80-%E7%A0%94%E7%A9%B6%E8%83%8C%E6%99%AF"><span class="nav-text">一. 研究背景</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-1-%E4%B8%BB%E8%A6%81%E5%86%85%E5%AE%B9"><span class="nav-text">1.1 主要内容</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-1-1"><span class="nav-text">1.1.1</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-1-2-%E8%A1%8C%E6%96%87%E7%BB%93%E6%9E%84"><span class="nav-text">1.1.2 行文结构</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-2-%E7%A0%94%E7%A9%B6%E6%83%85%E5%86%B5"><span class="nav-text">1.2 研究情况</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C-%E5%BC%82%E5%B8%B8%E7%9A%84%E5%AE%9A%E4%B9%89%E4%BB%A5%E5%8F%8A%E5%B8%B8%E8%A7%81%E7%9A%84%E5%BC%82%E5%B8%B8%E7%B1%BB%E5%9E%8B"><span class="nav-text">二. 异常的定义以及常见的异常类型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-%E5%BC%82%E5%B8%B8%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="nav-text">2.1 异常的定义</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-%E5%9B%BE%E5%83%8F%E6%95%B0%E6%8D%AE%E7%9A%84%E5%BC%82%E5%B8%B8%E7%A7%8D%E7%B1%BB"><span class="nav-text">2.2 图像数据的异常种类</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89-%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6"><span class="nav-text">三. 图像异常检测研究现状</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-1-%E5%9F%BA%E4%BA%8E%E4%BC%A0%E7%BB%9F%E6%96%B9%E6%B3%95%E7%9A%84%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF"><span class="nav-text">3.1 基于传统方法的异常检测技术</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#3-1-1-%E5%9F%BA%E4%BA%8E%E6%A8%A1%E6%9D%BF%E5%8C%B9%E9%85%8D%E7%9A%84%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95"><span class="nav-text">3.1.1 基于模板匹配的异常检测方法</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80-%E7%A0%94%E7%A9%B6%E8%83%8C%E6%99%AF"><span class="nav-text">一. 研究背景</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-1-%E4%B8%BB%E8%A6%81%E5%86%85%E5%AE%B9"><span class="nav-text">1.1 主要内容</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-1-1"><span class="nav-text">1.1.1</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-1-2-%E8%A1%8C%E6%96%87%E7%BB%93%E6%9E%84"><span class="nav-text">1.1.2 行文结构</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-2-%E7%A0%94%E7%A9%B6%E6%83%85%E5%86%B5"><span class="nav-text">1.2 研究情况</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C-%E5%BC%82%E5%B8%B8%E7%9A%84%E5%AE%9A%E4%B9%89%E4%BB%A5%E5%8F%8A%E5%B8%B8%E8%A7%81%E7%9A%84%E5%BC%82%E5%B8%B8%E7%B1%BB%E5%9E%8B"><span class="nav-text">二. 异常的定义以及常见的异常类型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-%E5%BC%82%E5%B8%B8%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="nav-text">2.1 异常的定义</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-%E5%9B%BE%E5%83%8F%E6%95%B0%E6%8D%AE%E7%9A%84%E5%BC%82%E5%B8%B8%E7%A7%8D%E7%B1%BB"><span class="nav-text">2.2 图像数据的异常种类</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89-%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6"><span class="nav-text">三. 图像异常检测研究现状</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-1-%E5%9F%BA%E4%BA%8E%E4%BC%A0%E7%BB%9F%E6%96%B9%E6%B3%95%E7%9A%84%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF"><span class="nav-text">3.1 基于传统方法的异常检测技术</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#3-1-1-%E5%9F%BA%E4%BA%8E%E6%A8%A1%E6%9D%BF%E5%8C%B9%E9%85%8D%E7%9A%84%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95"><span class="nav-text">3.1.1 基于模板匹配的异常检测方法</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -481,20 +482,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">8</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-count">11</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
