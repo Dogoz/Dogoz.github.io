@@ -11,48 +11,6 @@
       </categories>
   </entry>
   <entry>
-    <title>纯小白使用hexo搭建网站可能遇到的坑</title>
-    <url>/2023/03/17/%E2%80%9D%E7%BA%AF%E5%B0%8F%E7%99%BD%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%8F%AF%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91%E2%80%9C/</url>
-    <content><![CDATA[<h3 id="1-HEXO个人博客发布遇到问题，hexo-d错误：fatal-unable-to-auto-detect-email-address"><a href="#1-HEXO个人博客发布遇到问题，hexo-d错误：fatal-unable-to-auto-detect-email-address" class="headerlink" title="1 HEXO个人博客发布遇到问题，hexo d错误：fatal: unable to auto-detect email address"></a>1 HEXO个人博客发布遇到问题，hexo d错误：fatal: unable to auto-detect email address</h3><h5 id="1-1-出现问题的主要error："><a href="#1-1-出现问题的主要error：" class="headerlink" title="1.1 出现问题的主要error："></a>1.1 出现问题的主要error：</h5><figure class="highlight subunit"><table><tr><td class="code"><pre><span class="line"><span class="keyword">error: </span>failed to push some refs to &quot;https://github.com/xxxxxxxx&quot;</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-
-<h5 id="1-2-解决方法："><a href="#1-2-解决方法：" class="headerlink" title="1.2 解决方法："></a>1.2 解决方法：</h5><ul>
-<li>在资源管理器种显示隐藏项目</li>
-<li>进入博客目录的“.deploy_git.git”子目录，进入config文件</li>
-<li>打开config文件，添加如下内容</li>
-<li>[user]<br>email&#x3D;Github邮箱<br>name&#x3D;Github用户名</li>
-</ul>
-<h3 id="2-xxx-packages-are-looking-for-funding"><a href="#2-xxx-packages-are-looking-for-funding" class="headerlink" title="2. xxx packages are looking for funding"></a>2. xxx packages are looking for funding</h3><h5 id="2-1-出现问题的主要代码："><a href="#2-1-出现问题的主要代码：" class="headerlink" title="2.1 出现问题的主要代码："></a>2.1 出现问题的主要代码：</h5><figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">xxx packages are looking <span class="keyword">for</span> funding</span><br><span class="line">	<span class="built_in">run</span> <span class="string">&#x27;npm fund&#x27;</span> <span class="keyword">for</span> details</span><br></pre></td></tr></table></figure>
-
-<h5 id="2-2-解决方法："><a href="#2-2-解决方法：" class="headerlink" title="2.2 解决方法："></a>2.2 解决方法：</h5><ul>
-<li>该提示与install过程无关，是下载完成后，因有开发者希望可以得到捐赠，此时会提示你是否要进行打赏。</li>
-<li>虽然可以通过<code>npm install --no-fund</code>来取消该提示的出现，但本人输入该指令后，hexo部署失败，仍不知原因。故不建议尝试。</li>
-</ul>
-<h3 id="3-hexo-本地与部署显示不一致问题"><a href="#3-hexo-本地与部署显示不一致问题" class="headerlink" title="3. hexo 本地与部署显示不一致问题"></a>3. hexo 本地与部署显示不一致问题</h3><h5 id="3-1-出现问题主要体现"><a href="#3-1-出现问题主要体现" class="headerlink" title="3.1 出现问题主要体现"></a>3.1 出现问题主要体现</h5><ul>
-<li>在配置本地搜索时，部署过去的local search显示出现异常，与本地显示不一样。</li>
-</ul>
-<h5 id="3-2-解决方法"><a href="#3-2-解决方法" class="headerlink" title="3.2 解决方法"></a>3.2 解决方法</h5><ul>
-<li><p>修改本地配置文件_config.yml中的url</p>
-</li>
-<li><pre><code>  # URL
-  ## If your site is put in a subdirectroy, set url as &quot;http://yoursite.com/child&quot; and root as &quot;/child/&quot;
-  url: http://yourname.github.io
-  root:/
-</code></pre>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Set up a blog</category>
-        <category>Solutions to Problems</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>crash?</title>
-    <url>/2023/03/29/Will%20the%20recent%20bank%20chaos%20lead%20to%20an%20econamic%20crash/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>图像异常检测研究现状综述</title>
     <url>/2023/03/18/%E5%9B%BE%E5%83%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6%E7%BB%BC%E8%BF%B0/</url>
     <content><![CDATA[<p>​        图像异常检测是<strong>计算机视觉</strong>领域中，缺陷检测、图像分析、图像处理等方向的技术方法。本篇博客记录的该技术的<strong>传统与当代主流方法对比</strong>、<strong>各领域中不同技术分支的应用</strong>、<strong>各技术分支对未来的展望与不足</strong>等内容。</p>
@@ -218,6 +176,43 @@
       </tags>
   </entry>
   <entry>
+    <title>纯小白使用hexo搭建网站可能遇到的坑</title>
+    <url>/2023/03/17/%E2%80%9D%E7%BA%AF%E5%B0%8F%E7%99%BD%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%8F%AF%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91%E2%80%9C/</url>
+    <content><![CDATA[<h3 id="1-HEXO个人博客发布遇到问题，hexo-d错误：fatal-unable-to-auto-detect-email-address"><a href="#1-HEXO个人博客发布遇到问题，hexo-d错误：fatal-unable-to-auto-detect-email-address" class="headerlink" title="1 HEXO个人博客发布遇到问题，hexo d错误：fatal: unable to auto-detect email address"></a>1 HEXO个人博客发布遇到问题，hexo d错误：fatal: unable to auto-detect email address</h3><h5 id="1-1-出现问题的主要error："><a href="#1-1-出现问题的主要error：" class="headerlink" title="1.1 出现问题的主要error："></a>1.1 出现问题的主要error：</h5><figure class="highlight subunit"><table><tr><td class="code"><pre><span class="line"><span class="keyword">error: </span>failed to push some refs to &quot;https://github.com/xxxxxxxx&quot;</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+
+<h5 id="1-2-解决方法："><a href="#1-2-解决方法：" class="headerlink" title="1.2 解决方法："></a>1.2 解决方法：</h5><ul>
+<li>在资源管理器种显示隐藏项目</li>
+<li>进入博客目录的“.deploy_git.git”子目录，进入config文件</li>
+<li>打开config文件，添加如下内容</li>
+<li>[user]<br>email&#x3D;Github邮箱<br>name&#x3D;Github用户名</li>
+</ul>
+<h3 id="2-xxx-packages-are-looking-for-funding"><a href="#2-xxx-packages-are-looking-for-funding" class="headerlink" title="2. xxx packages are looking for funding"></a>2. xxx packages are looking for funding</h3><h5 id="2-1-出现问题的主要代码："><a href="#2-1-出现问题的主要代码：" class="headerlink" title="2.1 出现问题的主要代码："></a>2.1 出现问题的主要代码：</h5><figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">xxx packages are looking <span class="keyword">for</span> funding</span><br><span class="line">	<span class="built_in">run</span> <span class="string">&#x27;npm fund&#x27;</span> <span class="keyword">for</span> details</span><br></pre></td></tr></table></figure>
+
+<h5 id="2-2-解决方法："><a href="#2-2-解决方法：" class="headerlink" title="2.2 解决方法："></a>2.2 解决方法：</h5><ul>
+<li>该提示与install过程无关，是下载完成后，因有开发者希望可以得到捐赠，此时会提示你是否要进行打赏。</li>
+<li>虽然可以通过<code>npm install --no-fund</code>来取消该提示的出现，但本人输入该指令后，hexo部署失败，仍不知原因。故不建议尝试。</li>
+</ul>
+<h3 id="3-hexo-本地与部署显示不一致问题"><a href="#3-hexo-本地与部署显示不一致问题" class="headerlink" title="3. hexo 本地与部署显示不一致问题"></a>3. hexo 本地与部署显示不一致问题</h3><h5 id="3-1-出现问题主要体现"><a href="#3-1-出现问题主要体现" class="headerlink" title="3.1 出现问题主要体现"></a>3.1 出现问题主要体现</h5><ul>
+<li>在配置本地搜索时，部署过去的local search显示出现异常，与本地显示不一样。</li>
+</ul>
+<h5 id="3-2-解决方法"><a href="#3-2-解决方法" class="headerlink" title="3.2 解决方法"></a>3.2 解决方法</h5><ul>
+<li><p>修改本地配置文件_config.yml中的url</p>
+</li>
+<li><pre><code>  # URL
+  ## If your site is put in a subdirectroy, set url as &quot;http://yoursite.com/child&quot; and root as &quot;/child/&quot;
+  url: http://yourname.github.io
+  root:/
+</code></pre>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Set up a blog</category>
+        <category>Solutions to Problems</category>
+      </categories>
+  </entry>
+  <entry>
     <title>对从前的青春爱情的回忆</title>
     <url>/2023/03/28/%E5%AF%B9%E4%BB%8E%E5%89%8D%E7%9A%84%E9%9D%92%E6%98%A5%E7%88%B1%E6%83%85%E7%9A%84%E5%9B%9E%E5%BF%86/</url>
     <content><![CDATA[<h1 id="对从前的青春的回忆"><a href="#对从前的青春的回忆" class="headerlink" title="对从前的青春的回忆"></a>对从前的青春的回忆</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>这是我所知的最令人怀念、痛苦、也是最失败的青春，它是属于我自己的一段时光。年轻人的爱恋是否会随着年龄的增长而愈发幼稚？或者说，如果几年、十几年之后你仍不觉幼稚的话，只是因为你这么多年都没有成长？<br>我怀疑过自己，也对自己提出过如上类型的种种疑问。但终究我发现，最令我害怕的不是人格的幼稚，而是我对那段时光的记忆渐渐消失，似乎和过去像是两个擦肩而过的行人，就算我极力驻足原地，它也依旧渐行渐远。</p>
@@ -346,19 +341,6 @@
       </tags>
   </entry>
   <entry>
-    <title>美好的问候！</title>
-    <url>/2023/03/16/%E7%BE%8E%E5%A5%BD%E7%9A%84%E9%97%AE%E5%80%99%EF%BC%81/</url>
-    <content><![CDATA[<p>这是我的第一篇博文，是整个人生中的第一篇。</p>
-<span id="more"></span>
-<p>在前段时间，我曾注册过一个网站用以记录我的学习生活。但很可惜还没有发出第一篇博文，就被我注销了。<br>我当时给它起名叫“Dogz的家”，尽管它生命短暂，但它的离去仍让我惋惜哀伤。<br>它也教会了我很多东西，才使得我能相对轻松地搭建起我现在这个博客网页。</p>
-<p>我希望我能够善待、善用它；希望可以为我的学习、生活、工作提供一个留下美好回忆和宝贵知识的地方。</p>
-]]></content>
-      <categories>
-        <category>Chat</category>
-        <category>blessing</category>
-      </categories>
-  </entry>
-  <entry>
     <title>简单理解信息论与神经网络</title>
     <url>/2023/03/23/%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3%E4%BF%A1%E6%81%AF%E8%AE%BA%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​        在Ian Goodfellow的《深度学习》(花书) 中，多次提到了<strong>信息论</strong>，在本篇博文中，我将简单阐述理解一下信息论与神经网络之间的联系与融合。</p>
@@ -372,6 +354,19 @@
         <tag>Information theory</tag>
         <tag>Deep learning</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>美好的问候！</title>
+    <url>/2023/03/16/%E7%BE%8E%E5%A5%BD%E7%9A%84%E9%97%AE%E5%80%99%EF%BC%81/</url>
+    <content><![CDATA[<p>这是我的第一篇博文，是整个人生中的第一篇。</p>
+<span id="more"></span>
+<p>在前段时间，我曾注册过一个网站用以记录我的学习生活。但很可惜还没有发出第一篇博文，就被我注销了。<br>我当时给它起名叫“Dogz的家”，尽管它生命短暂，但它的离去仍让我惋惜哀伤。<br>它也教会了我很多东西，才使得我能相对轻松地搭建起我现在这个博客网页。</p>
+<p>我希望我能够善待、善用它；希望可以为我的学习、生活、工作提供一个留下美好回忆和宝贵知识的地方。</p>
+]]></content>
+      <categories>
+        <category>Chat</category>
+        <category>blessing</category>
+      </categories>
   </entry>
   <entry>
     <title>报考</title>
@@ -441,6 +436,27 @@
       <tags>
         <tag>wangpuy cpc</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>近期银行的混乱会引发一场新的经济危机吗?</title>
+    <url>/2023/03/29/%E8%BF%91%E6%9C%9F%E9%93%B6%E8%A1%8C%E7%9A%84%E6%B7%B7%E4%B9%B1%E4%BC%9A%E5%BC%95%E5%8F%91%E4%B8%80%E5%9C%BA%E6%96%B0%E7%9A%84%E7%BB%8F%E6%B5%8E%E5%8D%B1%E6%9C%BA%E5%90%97%EF%BC%9F/</url>
+    <content><![CDATA[<h1 id="Will-the-recent-bank-chaos-lead-to-an-economic-crash"><a href="#Will-the-recent-bank-chaos-lead-to-an-economic-crash" class="headerlink" title="Will the recent bank chaos lead to an economic crash?"></a>Will the recent bank chaos lead to an economic crash?</h1><p>So far, people seem remarkably blasé</p>
+<span id="more"></span>
+<p>How quickly things change. A few weeks ago analysts were convinced the global economy was powering ahead. Now they worry about a deep recession caused by fallout from the collapse of Silicon Valley Bank (svb) and the rescue of Credit Suisse. “From no landing to hard landing”, as Torsten Slok, an economist at Apollo Global Management, an asset manager, has written. Analysts at JPMorgan Chase—better at economics than metaphors, one hopes—say that “a soft landing now looks unlikely, with the airplane in a tailspin (lack of market confidence) and engines about to turn off (bank lending)”.</p>
+<p>Evidence from before the recent banking chaos suggested that global gdp was increasing at an annualised rate of around 3%. In rich countries, job markets were on fire. So far there is scant evidence of a shift in “real-time” data towards slower growth. A “current-activity indicator” produced by Goldman Sachs, a bank, derived from a variety of high-frequency measures, looks steady. Purchasing-manager indices showed a slight improvement in March. Weekly measures of gdp produced by the oecd, a rich-country club, are holding up. ubs, another bank, tracks global gdp growth as priced by financial markets (in prices of oil and cyclical shares, for example). This currently indicates growth of 3.4%, versus 3.7% before svb collapsed.</p>
+<p>It is still early days. The pain may be on the way. And as the JPMorgan analysts illustrated with their metaphor, economists have two worries. The first is uncertainty. If people fear a banking crisis and the accompanying economic pain, they may cut consumption and investment. The second relates to credit. Financial institutions, fearing losses, may pull back on lending, depriving firms of much-needed capital. Fortunately, though, there is reason to believe that the recent banking turmoil will have less impact than many fear.</p>
+<p>Take uncertainty first. Research published by the imf in 2013 finds that leaps in uncertainty—which had been caused by things like America’s invasion of Iraq and bank collapses—can trim annual gdp growth by up to 0.5 percentage points, largely because firms delay investment. If such a hit were to materialise, global growth would fall from 3% to perhaps 2.5%.</p>
+<p>Yet unless the turmoil continues, the impact is unlikely to be that significant—because the bank collapses made surprisingly little impression on people. A survey by Ipsos, a pollster, found that from early to mid-March American consumer confidence actually edged up, even as startups in Silicon Valley worried their money was going to vanish. An “uncertainty index” derived from analysis of newspapers by Nick Bloom of Stanford University and colleagues, rose a bit when the turmoil began, but is drifting back down. German business sentiment unexpectedly continued to improve in March. Global Google searches for terms related to “banking crisis” jumped in early March, but have also fallen again. It is hard to say why people are so blasé. Perhaps after the past years of pestilence and war, ructions in the banking industry seem like a walk in the park. Or perhaps people think governments will step in to protect them.</p>
+<p>Many economists worry more about the second problem: credit. If firms cannot get their hands on finance, they cannot grow so easily. On March 22nd Jerome Powell, chairman of the Federal Reserve, referred to a “very large body of literature” when asked about the connection between tighter credit conditions and economic activity. In the years after the global financial crisis of 2007-09, broken credit markets held back both short-term economic recovery and long-term productivity growth.</p>
+<p>After the collapse of svb, capital markets essentially froze. From March 11th-19th American corporations issued no new investment-grade bonds, having issued a daily average of $5bn in January and February. This caused consternation. But fewer people noticed that the market has since picked up. In recent days Brown-Forman, which makes Jack Daniel’s whiskey among other tipples, and NiSource, a big utility firm, have raised large amounts of money in debt markets. Although spreads on corporate bonds rose a little after the collapse of svb, they too have fallen back in recent days. Companies may have briefly held off issuing new debt to check that the coast was clear. It seems likely that March 2023 will turn out to be a fairly average month for corporate-debt issuance.</p>
+<p>Damage to the banking system will almost certainly prove more consequential. Since the start of March global banks’ share prices have tumbled by a sixth. Academic evidence suggests that falling share prices tend to hit loan growth. Banks may also cut back on lending if they see deposit outflows, or if they need to raise capital because investors doubt their safety. Indeed, banks across the rich world already appear to be tightening standards. The hit to bank lending implies a growth drag of around 0.4 percentage points in both America and the euro area, according to a new paper by Goldman Sachs. The turmoil may have hit American banks harder, but the euro-zone economy is more dependent on bank lending. That could cut global growth yet further, from 2.5% to something more like 2%.</p>
+<p>Although the recent banking turmoil is hardly good news, it is unlikely to push the world economy over the edge. True, things could yet deteriorate. The discovery of another rotten bank could cause a downward spiral. Banks will take time to rebuild balance-sheets and get lending. Rising interest rates will continue to impede growth until central bankers judge their work done.</p>
+<p>But there are forces working in the other direction, too. One is the rebound of China. Economists expect the world’s second-largest economy to have grown by over 7% year on year in the second quarter of the year. Meanwhile, supply-chain bottlenecks have mostly disappeared and energy prices have fallen. Do not be surprised if the world economy’s unusual resilience continues.</p>
+]]></content>
+      <categories>
+        <category>Reading essey</category>
+        <category>News</category>
+      </categories>
   </entry>
   <entry>
     <title>最爱你的那十年</title>
