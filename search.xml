@@ -692,4 +692,51 @@
         <category>Data link layer</category>
       </categories>
   </entry>
+  <entry>
+    <title>How to use ChatGPT in China</title>
+    <url>/2023/04/04/How-to-use-ChatGPT-in-China/</url>
+    <content><![CDATA[<h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><p>Someone want to use ChatGPT to get some intreseting things.<br>Umm, I don’t have some words want to say, let’s go!</p>
+<span id="more"></span>
+
+<h2 id="1-Preparation"><a href="#1-Preparation" class="headerlink" title="1. Preparation"></a>1. Preparation</h2><p>Please make sure you have a VPN or something to surf the internet freely.<br>I will try to write some articles to teach you how to do this in the future, but right now, I don’t have anything.</p>
+<h2 id="2-Have-a-Gmail"><a href="#2-Have-a-Gmail" class="headerlink" title="2. Have a Gmail"></a>2. Have a Gmail</h2><p>First, u can use your outlook email to create the Gmail account. And the outlook account can be created by your QQ email. This is done for that you can use a Chinese phone number to do these things. You can use a Chinese phone number to get a QQ account, then you can get everything.<br>So, you can <strong>have a Gmail</strong> follow:</p>
+<ol>
+<li>Use your Chinese phone number get a QQ account.</li>
+<li>Use your QQ account open a QQ-email as “<a href="mailto:&#120;&#x78;&#120;&#120;&#120;&#120;&#64;&#x71;&#x71;&#x2e;&#99;&#111;&#x6d;">&#120;&#x78;&#120;&#120;&#120;&#120;&#64;&#x71;&#x71;&#x2e;&#99;&#111;&#x6d;</a>“.</li>
+<li>Use your QQ-email to create a outlook account.</li>
+<li>Use your outlook account to create a Gmail account.</li>
+</ol>
+<ul>
+<li>Search for Gmail registration in Google, and enter the registration interface of Gmail registration. The URL as: <code>https://support.google.com/mail/answer/56256?hl=zh-Hans</code></li>
+<li><strong>It’s the most important change to your browser language to <em>English</em></strong>, Many peaple failed to register their Gmail account because it !</li>
+<li>Then, enter your email regisratration information, here you can fill in the corresponding information normally.</li>
+<li><strong>Select country as China</strong>, If you don’t do this step or previous step, then when you enter the phone number, the system will prompt you: This number cannot be use for verification.</li>
+<li>And now you can get a Gmail account !</li>
+</ul>
+<h2 id="3-Get-GPT-account"><a href="#3-Get-GPT-account" class="headerlink" title="3. Get GPT account"></a>3. Get GPT account</h2><h3 id="If-you-have-a-gmail-now-you-can-begin-at-this-step"><a href="#If-you-have-a-gmail-now-you-can-begin-at-this-step" class="headerlink" title="If you have a gmail now, you can begin at this step"></a>If you have a gmail now, you can begin at this step</h3><p>The registration of ChatGPT mainly includes the following steps, which must be carried out in strict order, <strong>otherwise it cannot be used</strong>.</p>
+<ol>
+<li>Find the <code>www.openai.com</code>, can enter it.</li>
+<li>Select the “product” option in the top directory bar. And choose the “ChatGPT” in there.</li>
+<li>Then select the “Sign up” option. -&gt; “Create an OpenAI account” -&gt; “continue with Google”</li>
+</ol>
+<p>Once you’ve completed email verification and registered your ChatGPT account as the first step, you’re not quite ready to use ChatGPT properly yet, because you still need to verify your phone number. Without passing the phone verification, you won’t be able to access ChatGPT’s services.</p>
+<p>Due to <strong>restrictions</strong> from OpenAI, phone numbers from mainland China, Hong Kong, Macau, and Google Voice virtual numbers cannot be used.</p>
+<p>At this point, you will need to use the next step of the <strong>verification platform</strong>.</p>
+<h2 id="4-verification-platform"><a href="#4-verification-platform" class="headerlink" title="4. verification platform"></a>4. verification platform</h2><p>You can get some other platform in internet, and I use the <code>sms-activate.org</code>.</p>
+<ol>
+<li>Register an account on sms-activate.org using your own email and complete the email verification process.</li>
+<li>Open your email to check for the verification email and click to confirm your sms-activate.org account verification.</li>
+<li>Log in to sms-activate.org and click the recharge button in the upper right corner to add credit. Scroll down to find Alipay and it is recommended to recharge $0.2 (top up more if necessary).</li>
+<li>After recharging, return to the homepage and search for the keyword “open” to find the temporary number purchase link for OpenAI verification code. </li>
+<li>Copy the temporary number in the activation area on the right side and paste it into the OpenAI verification code receiving area. </li>
+<li>Then click to send the verification code in OpenAI’s page and receive the code on the platform (it may be slow sometimes, please be patient), and fill in the code to complete the ChatGPT phone verification process.</li>
+</ol>
+<h2 id="5-Log-in-to-your-ChatGPT-account-and-get-started"><a href="#5-Log-in-to-your-ChatGPT-account-and-get-started" class="headerlink" title="5. Log in to your ChatGPT account and get started"></a>5. Log in to your ChatGPT account and get started</h2><p>Due to frequent issues such as freezing, unsupported operations, and disconnections on the web version of OpenAI, I recommend downloading the desktop application version of ChatGPT. Although we can directly log in and use ChatGPT on the webpage, this is not an official software of OpenAI, but rather a hobbyist’s own compilation.</p>
+<p>The download URL as: <code>https://github.com/lencx/ChatGPT</code>.</p>
+]]></content>
+      <categories>
+        <category>assist</category>
+        <category>register</category>
+      </categories>
+  </entry>
 </search>
