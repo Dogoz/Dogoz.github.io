@@ -22,17 +22,19 @@
     var CONFIG = {"hostname":"dogoz.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="一个用来留下美好回忆和宝贵知识的地方">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Avon.Lin的小破屋">
-<meta property="og:url" content="http://dogoz.github.io/categories/Set-up-a-blog/Procedure/index.html">
+  <meta name="description" content="Summary背景： 本电脑在安装ubuntu前，曾有一个Windows专业版，但这个Windows并非全部安装在C盘上。导致在格式化的时候并没有完全删掉一些启动文件。 本电脑曾重装过不下20次系统，其中包含Windows、Ubuntu、Centos、Macos、其他小系统。但由于没有精心打理，里面有很多残留的各种驱动、boot和奇怪的启动文件。 此次安装Ubuntu是打算跑深度学习框架，故需要安">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ubuntu22.04下安装driver&amp;cuda的方法及相关问题解决">
+<meta property="og:url" content="http://dogoz.github.io/2023/04/06/Ubuntu22-04%E4%B8%8B%E5%AE%89%E8%A3%85driver/index.html">
 <meta property="og:site_name" content="Avon.Lin的小破屋">
-<meta property="og:description" content="一个用来留下美好回忆和宝贵知识的地方">
+<meta property="og:description" content="Summary背景： 本电脑在安装ubuntu前，曾有一个Windows专业版，但这个Windows并非全部安装在C盘上。导致在格式化的时候并没有完全删掉一些启动文件。 本电脑曾重装过不下20次系统，其中包含Windows、Ubuntu、Centos、Macos、其他小系统。但由于没有精心打理，里面有很多残留的各种驱动、boot和奇怪的启动文件。 此次安装Ubuntu是打算跑深度学习框架，故需要安">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-04-06T03:41:03.000Z">
+<meta property="article:modified_time" content="2023-04-06T05:32:30.515Z">
 <meta property="article:author" content="AvonLin">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://dogoz.github.io/categories/Set-up-a-blog/Procedure/">
+<link rel="canonical" href="http://dogoz.github.io/2023/04/06/Ubuntu22-04%E4%B8%8B%E5%AE%89%E8%A3%85driver/">
 
 
 <script id="page-configurations">
@@ -40,12 +42,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Category: Procedure | Avon.Lin的小破屋</title>
+  <title>Ubuntu22.04下安装driver&cuda的方法及相关问题解决 | Avon.Lin的小破屋</title>
   
 
 
@@ -182,71 +184,97 @@
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">Procedure
-          <small>Category</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://dogoz.github.io/2023/04/06/Ubuntu22-04%E4%B8%8B%E5%AE%89%E8%A3%85driver/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="AvonLin">
+      <meta itemprop="description" content="一个用来留下美好回忆和宝贵知识的地方">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Avon.Lin的小破屋">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Ubuntu22.04下安装driver&cuda的方法及相关问题解决
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2023-04-06 11:41:03 / Modified: 13:32:30" itemprop="dateCreated datePublished" datetime="2023-04-06T11:41:03+08:00">2023-04-06</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a>
+                </span>
+                  , 
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/Procedure/" itemprop="url" rel="index"><span itemprop="name">Procedure</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2023</span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2023-03-23T10:23:53+08:00"
-              content="2023-03-23">
-          03-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2023/03/23/%E5%B0%8F%E7%99%BDhexo-next%E4%B8%BB%E9%A2%98%E6%9C%80%E5%9F%BA%E7%A1%80%E8%B0%83%E8%AF%95%E5%BB%BA%E8%AE%AE/" itemprop="url">
-            <span itemprop="name">小白hexo-next主题最基础调试建议</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2023-03-22T14:59:05+08:00"
-              content="2023-03-22">
-          03-22
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2023/03/22/%E5%B0%8F%E7%99%BD%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%8C%87%E5%8C%97/" itemprop="url">
-            <span itemprop="name">小白用Hexo搭建个人博客指北</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
+        <h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><h2 id="背景："><a href="#背景：" class="headerlink" title="背景："></a>背景：</h2><ul>
+<li>本电脑在安装ubuntu前，曾有一个Windows专业版，但这个Windows并非全部安装在C盘上。导致在格式化的时候并没有完全删掉一些启动文件。</li>
+<li>本电脑曾重装过不下20次系统，其中包含Windows、Ubuntu、Centos、Macos、其他小系统。但由于没有精心打理，里面有很多残留的各种驱动、boot和奇怪的启动文件。</li>
+<li>此次安装Ubuntu是打算跑深度学习框架，故需要安装cuda，并因此出了很多奇奇怪怪的问题。</li>
+<li>本篇文章行文结构是以<em>一个刚下载好的纯净Ubuntu22.04系统</em>为基础，以用该系统安装nvidia-driver以及cuda的一般办法为脉络。在中间穿插本人在其中遇到的问题及解决方法。<figure class="highlight sqf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">- 使用版本：</span><br><span class="line">操作系统：Ubuntu <span class="number">22.04</span>.<span class="number">2</span> LTS</span><br><span class="line">操作系统类型：<span class="number">64</span>位</span><br><span class="line">GNOME版本：<span class="number">42.5</span></span><br><span class="line">硬件型号：Lenovo Legion Y7000P <span class="number">2020</span>H</span><br><span class="line">处理器：Intel Core i7-<span class="number">10875</span>H CPU @ <span class="number">2.3</span>GHZ x <span class="number">16</span></span><br><span class="line">图形：NVIDIA Corporation TU106M[GeForce RTX2060 Mobile]</span><br><span class="line"></span><br><span class="line">- 最后下载驱动及CUDA版本：</span><br><span class="line"><span class="built_in">Driver</span>：NVIDIA <span class="built_in">driver</span> metapackage form nvidia-<span class="built_in">driver</span>-<span class="number">515</span></span><br><span class="line">CUDA：<span class="number">11.7</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<span id="more"></span>
+<h1 id="一、安装driver"><a href="#一、安装driver" class="headerlink" title="一、安装driver"></a>一、安装driver</h1><h2 id="在Ubuntu-Software里安装"><a href="#在Ubuntu-Software里安装" class="headerlink" title="在Ubuntu Software里安装"></a>在Ubuntu Software里安装</h2><p>当你刚安装好Ubuntu时，它会提示你说<strong>有更新内容</strong>，第一次我没有让它更新，然后我的Software就打不开了！！！后续我更新之后，它就可以打开了。<br>但与其说是在Software里安装，在22.04版本后，它自带了一个叫做”附加驱动“的程序，点进去可以直接安装驱动。<br>点进<code>附加程序</code>后，可以看到</p>
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/04/04/How-to-use-ChatGPT-in-China/" rel="prev" title="How to use ChatGPT in China">
+      <i class="fa fa-chevron-left"></i> How to use ChatGPT in China
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -299,6 +327,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Summary"><span class="nav-text">Summary</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%83%8C%E6%99%AF%EF%BC%9A"><span class="nav-text">背景：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%AE%89%E8%A3%85driver"><span class="nav-text">一、安装driver</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9C%A8Ubuntu-Software%E9%87%8C%E5%AE%89%E8%A3%85"><span class="nav-text">在Ubuntu Software里安装</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
