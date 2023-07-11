@@ -6,7 +6,7 @@
     <content><![CDATA[<h2 id="CDMA"><a href="#CDMA" class="headerlink" title="CDMA"></a>CDMA</h2><h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><p>每个站分配的码片序列不仅必须各不相同，而且需相互正交</p>
 ]]></content>
       <categories>
-        <category>Junior</category>
+        <category>Lesson</category>
         <category>Data Communications</category>
       </categories>
   </entry>
@@ -469,9 +469,8 @@
 <h3 id="2-5-编码"><a href="#2-5-编码" class="headerlink" title="2.5 编码"></a>2.5 编码</h3><p>可以通过各种编码方案实现冗余。Ps: <strong>所以目的还是实现冗余</strong><br>发送方增加冗余位，然后通过某种方法建立冗余位和真实数据位之间的某种关系，接收方通过检测这两者的关系来检错或纠错。<br>可以分为两大类：块编码(block coding)和卷积编码(convolution coding).<br>在本书中，主要介绍块编码，在更高级的书中会介绍卷积编码。</p>
 ]]></content>
       <categories>
-        <category>Junior</category>
+        <category>Lesson</category>
         <category>Data Communications</category>
-        <category>Data link layer</category>
       </categories>
   </entry>
   <entry>
@@ -814,6 +813,201 @@
       <categories>
         <category>Chat</category>
         <category>Ramblings</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>李昊英语一</title>
+    <url>/2023/07/11/%E6%9D%8E%E6%98%8A%E8%8B%B1%E8%AF%AD%E4%B8%80/</url>
+    <content><![CDATA[<h1 id="李昊英语一"><a href="#李昊英语一" class="headerlink" title="李昊英语一"></a>李昊英语一</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>考研班英语一复习, 完型翻译小作文.</p>
+<span id="more"></span>
+
+<h2 id="7-11日-完型-P1-P"><a href="#7-11日-完型-P1-P" class="headerlink" title="7.11日 完型(P1-P)"></a>7.11日 完型(P1-P)</h2><h3 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h3><p>因果&#x2F;让转&gt;平行&gt;举例&gt;递进&gt;条件&#x2F;时间</p>
+<ol>
+<li><strong>[主题一致]</strong> 全文都是科普型议论文, 首句不挖空, 借助首局理解全文主旨</li>
+<li><strong>[态度一致]</strong> 句子前后感情色彩一致</li>
+<li><strong>[逻辑推理]</strong> 解释逻辑</li>
+<li><strong>[逻辑推理]</strong> 递进逻辑: <ul>
+<li>前后句主语和谓语内容一致(indeed) </li>
+<li>前后句主语不一致, 谓语一致()</li>
+</ul>
+</li>
+<li><strong>[让转逻辑]</strong> 让步 &amp; 转折<ul>
+<li>让步: although, while, despite, in spite of, even if, even though, even when, even as</li>
+<li>隐性让步逻辑词: 可以肯定的是, 但是xxxx <ul>
+<li>[标准用法: Although, xxxx but xxxx],</li>
+<li>[1. Sure enough, xxxx but xxx], </li>
+<li>[2. To be sure, xxxx but xxxx], </li>
+<li>[3. Certainly, xxxx but xxxx], </li>
+<li>[4. Admittedly, xxxx but xxxx], </li>
+<li>[5. It is true that xxxxx but xxxx]</li>
+</ul>
+</li>
+<li>转折: but, however, yet, still, only, instead, on the contrary</li>
+<li>考点: <ul>
+<li>xxxxxx, ____ xxxx <strong>not</strong> xxxx &#x3D; 让步&#x2F;转折</li>
+<li>xxxx <strong>not</strong> xxxx, ____xxxx &#x3D; 让步&#x2F;转折</li>
+<li>____ xxxxxx, xxxxxx <strong>not</strong> xxxx &#x3D; 让步</li>
+<li>____ xxxxxx <strong>not</strong> xxxxxx, xxxxxx&#x3D; 让步</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>[平行逻辑]</strong> A and(&#x3D;) ____ ; A. &#x3D; B.<ul>
+<li>语义 态度 词性</li>
+<li>程度副词: mostly, partially</li>
+<li>频度副词: usually, often, sometimes, occasionally, frequently</li>
+<li>否定副词: hardly, rarely,</li>
+</ul>
+</li>
+<li><strong>[对比逻辑]</strong></li>
+<li><strong>[总分逻辑]</strong></li>
+<li><strong>[举例逻辑]</strong> 抽象+具体</li>
+<li><strong>[指代逻辑]</strong></li>
+</ol>
+<h3 id="单词-x2F-词组-x2F-小语法"><a href="#单词-x2F-词组-x2F-小语法" class="headerlink" title="单词&#x2F;词组&#x2F;小语法"></a>单词&#x2F;词组&#x2F;小语法</h3><h4 id="主题一致-2017年"><a href="#主题一致-2017年" class="headerlink" title="主题一致[2017年]"></a>主题一致[2017年]</h4><ol>
+<li>defeat [v] 击败 [n] 败局</li>
+<li>symptom [n] 症状</li>
+<li>error [n] 错误</li>
+<li>test [n] 错误</li>
+</ol>
+<h4 id="主题一致-2001-Q34"><a href="#主题一致-2001-Q34" class="headerlink" title="主题一致[2001-Q34]"></a>主题一致[2001-Q34]</h4><ol>
+<li>illogical [adj] 不合理的</li>
+<li>press [n] 新闻业</li>
+<li>bill [n] 法案</li>
+<li>trial [n] 审判 试验</li>
+</ol>
+<h4 id="主题一致-E2-2016-Q4"><a href="#主题一致-E2-2016-Q4" class="headerlink" title="主题一致[E2-2016-Q4]"></a>主题一致[E2-2016-Q4]</h4><ol>
+<li>modernism [n] 现代主义</li>
+<li>realism [n] 现实主义</li>
+<li>trainer [n] 培训师</li>
+<li>trainee [n] 受训者</li>
+<li>tutor [n] 导师 私教</li>
+<li>interviewer [n] 面试官</li>
+<li>interviewee [n] 面试者</li>
+</ol>
+<h4 id="主题一致-E2-2015-Q14"><a href="#主题一致-E2-2015-Q14" class="headerlink" title="主题一致[E2-2015-Q14]"></a>主题一致[E2-2015-Q14]</h4><ol>
+<li>passenger [n] 乘客 旅客</li>
+<li>context [n] 语境</li>
+<li>lodging [n] 寄宿的地方</li>
+<li>manage to 设法成功的</li>
+</ol>
+<h4 id="态度一致-E2-2011-Q18"><a href="#态度一致-E2-2011-Q18" class="headerlink" title="态度一致[E2-2011-Q18]"></a>态度一致[E2-2011-Q18]</h4><ol>
+<li>skepticism [n] 怀疑论 怀疑态度</li>
+<li>Be greeted with 得到[中性词] -&gt; be greeted with skepticism 得到怀疑</li>
+<li>defendable [adj] 可防御的 可保护</li>
+<li>vulnerable [adj] 脆弱的</li>
+<li>invisible [adj] 不可见的</li>
+<li>moderate [adj] 适度的 适中的 [vi] 缓解缓和</li>
+<li>aggravate [v] 加剧 加重</li>
+<li>generate &#x3D; produce [v] 发生</li>
+</ol>
+<h4 id="逻辑推理-递进逻辑"><a href="#逻辑推理-递进逻辑" class="headerlink" title="逻辑推理[递进逻辑]"></a>逻辑推理[递进逻辑]</h4><ol>
+<li>indeed [adv] 甚至</li>
+<li>likewise [adv] 类似</li>
+<li>furthermore [adv] 此外</li>
+</ol>
+<h4 id="逻辑推理-E2-2014-Q17"><a href="#逻辑推理-E2-2014-Q17" class="headerlink" title="逻辑推理[E2-2014-Q17]"></a>逻辑推理[E2-2014-Q17]</h4><ol>
+<li>harbor [v] 怀有</li>
+<li>bias [n] 偏见 斜纹 偏爱</li>
+<li>look down 鄙视</li>
+<li>obese [adj] 肥胖的 过胖的</li>
+<li>Still + , &#x3D; However</li>
+<li>Only &#x3D; But 唯独(隐性的转折逻辑) (放在句首可成立)</li>
+</ol>
+<h4 id="让转逻辑-21"><a href="#让转逻辑-21" class="headerlink" title="让转逻辑[21]"></a>让转逻辑[21]</h4><ol>
+<li>sick [adj] 恶心 厌恶</li>
+<li>aware [adj] 意识到的</li>
+<li>tired [adj] 厌倦的</li>
+<li>tolerate[v] 容忍</li>
+<li>repel [v] 击退 使厌恶 使不愉快 抵制</li>
+<li>neglect [v&amp;n] 疏忽 忽视 忽略</li>
+<li>notice [n] 通知 [v] 注意到</li>
+</ol>
+<h4 id="让转逻辑-2004-Q40"><a href="#让转逻辑-2004-Q40" class="headerlink" title="让转逻辑[2004-Q40]"></a>让转逻辑[2004-Q40]</h4><ol>
+<li>probability [n] 可能性</li>
+<li>casual [adj] [词根case] 不在意的 随意的</li>
+<li>causal [adj] 有原因的 因果关系的</li>
+</ol>
+<h4 id="让转逻辑-E2-2015-Q7"><a href="#让转逻辑-E2-2015-Q7" class="headerlink" title="让转逻辑[E2-2015-Q7]"></a>让转逻辑[E2-2015-Q7]</h4><ol>
+<li>R&amp;D &#x3D; Research &amp; development 研发</li>
+<li>intensity [n] 强烈 强烈程度(情感上的)</li>
+</ol>
+<h4 id="让转逻辑-E2-2016-Q17"><a href="#让转逻辑-E2-2016-Q17" class="headerlink" title="让转逻辑[E2-2016-Q17]"></a>让转逻辑[E2-2016-Q17]</h4><ol>
+<li>longer-term [adj] 长远的</li>
+<li>longer-term view 目光长远</li>
+</ol>
+<h4 id="让转逻辑-2015-Q5"><a href="#让转逻辑-2015-Q5" class="headerlink" title="让转逻辑[2015-Q5]"></a>让转逻辑[2015-Q5]</h4><ol>
+<li>if only 只要</li>
+<li>only if 只有</li>
+<li>as if 好像</li>
+<li>generally [adv] 一般地 通常 大体上的</li>
+</ol>
+<h4 id="平行逻辑-33-35-28-23"><a href="#平行逻辑-33-35-28-23" class="headerlink" title="平行逻辑[33-35-28-23]"></a>平行逻辑[33-35-28-23]</h4><ol>
+<li>tremble [vi] 战栗 焦虑 发抖</li>
+<li>advise [v] 劝告</li>
+<li>advice [n] 劝告</li>
+<li>protest [v&amp;n] 抗议</li>
+<li>object [v] 反对</li>
+<li>suggest [v] 建议 <strong>表明</strong> 暗示</li>
+<li>indicate [v] 表明(暗示)</li>
+<li>show&#x2F;illustrate [v] 表明(明示)</li>
+</ol>
+<h4 id="平行逻辑-2003-Q23"><a href="#平行逻辑-2003-Q23" class="headerlink" title="平行逻辑[2003-Q23]"></a>平行逻辑[2003-Q23]</h4><ol>
+<li>exercise[v&amp;n] 练习</li>
+<li>nutrition [n] 营养</li>
+</ol>
+<h4 id="平行逻辑-E2-2016-Q14"><a href="#平行逻辑-E2-2016-Q14" class="headerlink" title="平行逻辑[E2-2016-Q14]"></a>平行逻辑[E2-2016-Q14]</h4><ol>
+<li>correlation [n] 相互的关系</li>
+<li>investment [n] 投资</li>
+<li>firm [adj] 坚定的 结实的 [vt] 使牢固 使坚定 [vi] 变坚实 [adv] 稳固的</li>
+<li>clue [n] 线索</li>
+<li>cue [n] 提示 暗示 线索</li>
+<li><strong>evenly distributed 平均分配</strong> 与 equal 替换</li>
+<li>relatively [adv] 相对而言 相对地</li>
+</ol>
+<h4 id="平行逻辑-2006-Q17"><a href="#平行逻辑-2006-Q17" class="headerlink" title="平行逻辑[2006-Q17]"></a>平行逻辑[2006-Q17]</h4><ol>
+<li>comprehensive [adj] 全面的</li>
+<li>complex [adj] 复杂的</li>
+<li>complementary [adj] 补充的</li>
+<li>compensating [adj] 补偿的</li>
+<li>package [adj] 一揽子的</li>
+<li>package tour 跟团游(一条龙服务)</li>
+</ol>
+<h4 id="平行逻辑-E2-2010-Q13"><a href="#平行逻辑-E2-2010-Q13" class="headerlink" title="平行逻辑[E2-2010-Q13]"></a>平行逻辑[E2-2010-Q13]</h4><ol>
+<li>impart [v] 给予</li>
+<li>immense [adj] 巨大的</li>
+<li>immerse [v] 沉浸 使陷入</li>
+<li>inject [v] 注射 注入</li>
+<li>infect [v] 感染 传染</li>
+</ol>
+<h4 id="平行逻辑-2004-Q21-Q25"><a href="#平行逻辑-2004-Q21-Q25" class="headerlink" title="平行逻辑[2004-Q21-Q25]"></a>平行逻辑[2004-Q21-Q25]</h4><ol>
+<li>or else 否则</li>
+<li>but rather 而是</li>
+<li>disappointed [adj] 失望的</li>
+<li>indifferent [adj] 面无表情(中性词)</li>
+</ol>
+<h4 id="对比逻辑-2005-Q9"><a href="#对比逻辑-2005-Q9" class="headerlink" title="对比逻辑[2005-Q9]"></a>对比逻辑[2005-Q9]</h4><ol>
+<li>whereas [conj] 而</li>
+</ol>
+<h4 id="总分逻辑"><a href="#总分逻辑" class="headerlink" title="总分逻辑"></a>总分逻辑</h4><ol>
+<li>rely [v] 依靠 信赖</li>
+<li>centering [n] 置于中心 定中心</li>
+<li>comment [n] 评论 意见 批评 [vi] 发表评论 [vt] 为…说话</li>
+</ol>
+<h4 id="举例逻辑-2009-Q14"><a href="#举例逻辑-2009-Q14" class="headerlink" title="举例逻辑[2009-Q14]"></a>举例逻辑[2009-Q14]</h4><ol>
+<li>strain [n] 张力 拉紧 [v] 拉紧</li>
+</ol>
+<h4 id="指代逻辑-E2-2015-Q8"><a href="#指代逻辑-E2-2015-Q8" class="headerlink" title="指代逻辑[E2-2015-Q8]"></a>指代逻辑[E2-2015-Q8]</h4><ol>
+<li>ungrateful [adj] 忘恩负义的</li>
+<li>grateful [adj] 感谢的 令人愉快的</li>
+<li>unconventional [adj] 非传统的</li>
+<li>drop [v] 下滑</li>
+<li>fluctuate [v] 波动(剧烈浮动)</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Lesson</category>
+        <category>English</category>
       </categories>
   </entry>
 </search>
