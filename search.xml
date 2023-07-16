@@ -1365,4 +1365,75 @@
         <category>Plitics</category>
       </categories>
   </entry>
+  <entry>
+    <title>考研数学复习规划</title>
+    <url>/2023/07/16/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%A4%8D%E4%B9%A0%E8%A7%84%E5%88%92/</url>
+    <content><![CDATA[<h1 id="考研数学复习规划"><a href="#考研数学复习规划" class="headerlink" title="考研数学复习规划"></a>考研数学复习规划</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>该博文时间规划方面通用性不强, 是根据博主自身实际状况, 为自己量身定制的复习计划, 请谨慎参考</p>
+<h2 id="文章结构"><a href="#文章结构" class="headerlink" title="文章结构"></a>文章结构</h2><span id="more"></span>
+<h1 id="分学科0基础知识点汇总"><a href="#分学科0基础知识点汇总" class="headerlink" title="分学科0基础知识点汇总"></a>分学科0基础知识点汇总</h1><h2 id="高数"><a href="#高数" class="headerlink" title="高数"></a>高数</h2><h3 id="第一章-函数-极限与连续"><a href="#第一章-函数-极限与连续" class="headerlink" title="第一章 函数 极限与连续"></a>第一章 函数 极限与连续</h3><ol>
+<li>极限的概念</li>
+<li>极限的性质</li>
+<li>无穷大与无穷小</li>
+<li>函数极限的计算</li>
+<li><strong>连续与间断 渐近线</strong></li>
+<li><strong>数列极限</strong></li>
+</ol>
+<h3 id="第二章-导数与微分"><a href="#第二章-导数与微分" class="headerlink" title="第二章 导数与微分"></a>第二章 导数与微分</h3><ol>
+<li>导数定义及其性质</li>
+<li>导数定义的应用</li>
+<li>微分的定义</li>
+<li>求导计算</li>
+<li><strong>泰勒公式及其应用</strong></li>
+<li><strong>导数的应用</strong></li>
+</ol>
+<h3 id="第三章-一元函数积分学"><a href="#第三章-一元函数积分学" class="headerlink" title="第三章 一元函数积分学"></a>第三章 一元函数积分学</h3><h4 id="不定积分部分"><a href="#不定积分部分" class="headerlink" title="不定积分部分"></a>不定积分部分</h4><ol>
+<li>不定积分的概念与性质</li>
+<li><strong>不定积分的计算</strong></li>
+</ol>
+<h4 id="定积分部分"><a href="#定积分部分" class="headerlink" title="定积分部分"></a>定积分部分</h4><ol>
+<li>定积分概念与性质</li>
+<li><strong>定积分的计算</strong></li>
+<li><strong>定积分的应用</strong></li>
+</ol>
+<h4 id="变现积分部分"><a href="#变现积分部分" class="headerlink" title="变现积分部分"></a>变现积分部分</h4><ol>
+<li><strong>变限积分的概念与性质</strong></li>
+<li><strong>变限积分的计算</strong></li>
+</ol>
+<h4 id="反常积分"><a href="#反常积分" class="headerlink" title="反常积分"></a>反常积分</h4><ol>
+<li><strong>反常积分的概念和计算</strong></li>
+<li><strong>反常积分敛散性的判断</strong></li>
+</ol>
+<h3 id="第四章-中值定理"><a href="#第四章-中值定理" class="headerlink" title="第四章 中值定理"></a>第四章 中值定理</h3><ol>
+<li>与函数$f(x)$有关的定理</li>
+<li>与积分有关的中值定理</li>
+</ol>
+<h4 id="与-f-96-x-有关的定理"><a href="#与-f-96-x-有关的定理" class="headerlink" title="与$f^&#96;(x)有关的定理$"></a>与$f^&#96;(x)有关的定理$</h4><ol start="3">
+<li>罗尔定理</li>
+<li>拉格朗日中值定理</li>
+<li>柯西中值定理</li>
+<li>泰勒中值定理</li>
+</ol>
+<h3 id="第五章-多元函数微分学"><a href="#第五章-多元函数微分学" class="headerlink" title="第五章 多元函数微分学"></a>第五章 多元函数微分学</h3><ol>
+<li><strong>多元函数微分学的概念</strong></li>
+<li><strong>多元复合函数的偏导数和全微分的计算</strong></li>
+<li><strong>多元函数微分学的应用</strong></li>
+</ol>
+<h3 id="第六章-二重积分"><a href="#第六章-二重积分" class="headerlink" title="第六章 二重积分"></a>第六章 二重积分</h3><ol>
+<li><strong>二重积分的定义与性质</strong></li>
+<li><strong>二重积分的直接计算</strong></li>
+<li><strong>二重积分的技巧性计算</strong></li>
+</ol>
+<h3 id="第七章-微分方程"><a href="#第七章-微分方程" class="headerlink" title="第七章 微分方程"></a>第七章 微分方程</h3><ol>
+<li><strong>微分方程的概念</strong></li>
+<li><strong>一阶微分方程的求解</strong></li>
+<li><strong>二阶可降阶微的微分方程</strong></li>
+<li><strong>线性微分方程解的性质</strong></li>
+<li><strong>二阶常系数微分方程</strong></li>
+</ol>
+<h2 id="线性代数"><a href="#线性代数" class="headerlink" title="线性代数"></a>线性代数</h2><h2 id="概率论与数理统计"><a href="#概率论与数理统计" class="headerlink" title="概率论与数理统计"></a>概率论与数理统计</h2>]]></content>
+      <categories>
+        <category>Lesson</category>
+        <category>Plan</category>
+      </categories>
+  </entry>
 </search>
