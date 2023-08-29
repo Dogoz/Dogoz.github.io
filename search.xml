@@ -1869,4 +1869,32 @@
         <category>Signal and System</category>
       </categories>
   </entry>
+  <entry>
+    <title>如何在Linux中下载Steam</title>
+    <url>/2023/08/29/%E5%A6%82%E4%BD%95%E5%9C%A8Linux%E4%B8%AD%E4%B8%8B%E8%BD%BDSteam/</url>
+    <content><![CDATA[<h1 id="如何在Linux中下载Steam"><a href="#如何在Linux中下载Steam" class="headerlink" title="如何在Linux中下载Steam"></a>如何在Linux中下载Steam</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><figure class="highlight sqf"><table><tr><td class="code"><pre><span class="line">- 使用版本：</span><br><span class="line">操作系统：Ubuntu <span class="number">22.04</span>.<span class="number">2</span> LTS</span><br><span class="line">操作系统类型：<span class="number">64</span>位</span><br><span class="line">GNOME版本：<span class="number">42.5</span></span><br><span class="line">硬件型号：Lenovo Legion Y7000P <span class="number">2020</span>H</span><br><span class="line">处理器：Intel Core i7-<span class="number">10875</span>H CPU @ <span class="number">2.3</span>GHZ x <span class="number">16</span></span><br><span class="line">图形：NVIDIA Corporation TU106M[GeForce RTX2060 Mobile]</span><br><span class="line"></span><br><span class="line">- 最后下载驱动及CUDA版本：</span><br><span class="line"><span class="built_in">Driver</span>：NVIDIA <span class="built_in">driver</span> metapackage form nvidia-<span class="built_in">driver</span>-<span class="number">515</span></span><br><span class="line">CUDA：<span class="number">11.7</span></span><br></pre></td></tr></table></figure>
+<p>博主使用Flatpak下载Steam并成功使用. 如果你刚安装好Linux系统, 那么你可以依照一下教程从零开始. 如果你的电脑中有以下部件中的部分内容, 即可跳过他们直接进行下一步.</p>
+<p>文章内容: 其中, <code>安装Nvidia专有驱动</code>整体章节将跳转到另一篇博客中进行详解</p>
+<ul>
+<li>安装Nvidia专有驱动<ul>
+<li>安装CUDA</li>
+<li>安装cuDNN</li>
+<li>安装TensorRT</li>
+<li>安装NVIDIA Container Toolkit</li>
+</ul>
+</li>
+<li>安装Steam客户端<ul>
+<li>安装Flatkap套件</li>
+<li>安装Steam客户端</li>
+</ul>
+</li>
+</ul>
+<span id="more"></span>
+
+<h2 id="一-安装Nvidia专有驱动"><a href="#一-安装Nvidia专有驱动" class="headerlink" title="一. 安装Nvidia专有驱动"></a><a href="https://dogoz.github.io/2023/04/06/Ubuntu22-04%E4%B8%8B%E5%AE%89%E8%A3%85driver/">一. 安装Nvidia专有驱动</a></h2><h2 id="二-安装Steam客户端"><a href="#二-安装Steam客户端" class="headerlink" title="二. 安装Steam客户端"></a>二. 安装Steam客户端</h2><h3 id="2-1-安装Flatkap套件"><a href="#2-1-安装Flatkap套件" class="headerlink" title="2.1 安装Flatkap套件"></a>2.1 安装Flatkap套件</h3>]]></content>
+      <categories>
+        <category>Linux</category>
+        <category>Procedure</category>
+      </categories>
+  </entry>
 </search>
