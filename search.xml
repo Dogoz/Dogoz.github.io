@@ -1976,4 +1976,26 @@
         <category>Learning AI</category>
       </categories>
   </entry>
+  <entry>
+    <title>将Mathtype添加进Word进行使用</title>
+    <url>/2023/11/30/%E8%AE%B2Mathtype%E6%B7%BB%E5%8A%A0%E8%BF%9BWord%E8%BF%9B%E8%A1%8C%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Mathtype是可以作为插件，在word里显示一个选项卡，而不必每次用对象去加载mathtype公式。（PowerPoint同理）</p>
+<span id="more"></span>
+
+<h2 id="版本要求："><a href="#版本要求：" class="headerlink" title="版本要求："></a>版本要求：</h2><p>1.想要在Office显示mathtype选项卡，如果是64位的office，Mathtype6.5是不行的（mathtype6.5只支持32位的）。mathtype6.9以上就可以，完全不需要最新版本。</p>
+<p>2.MathType 7与64位和32位版本的Office兼容，更好！如果版本不满足要求，是不能显示选项卡的。</p>
+<h2 id="具体方法："><a href="#具体方法：" class="headerlink" title="具体方法："></a>具体方法：</h2><p>1.确认安装位置：</p>
+<ol>
+<li>安装mathtype支持64位office的版本（本人用的是Mathtype6.9）。注意：安装位置默认到C:\Program Files (x86)\MathType （我之前安装在D盘就无法加载到word，不知什么原因。）</li>
+<li>我的Office 安装路径在C:\Program Files\Microsoft Office\root\Office16（默认）。(小tips:若忘记具体安装路径，在可能的文件夹中搜索“winword”，下面的路径就是Office安装文件夹的位置。)在这里插入图片描述</li>
+</ol>
+<p>2.打开word，单击 文件—-&gt;选项—&gt;信任中心—-&gt;信任中心设置—&gt;受信任位置—&gt;添加新位置，将C:\Program Files\Microsoft Office\root\Office16\STARTUP\ 添加入受信任路径。</p>
+<p>3.找到MythType安装目录，将mathtype中的<br>C:\Program Files (x86)\MathType\MathPage\64的”MathPage.wll“；<br>C:\Program Files (x86)\MathType\Office Support\64的”WordCmds.dot“ 和 ”MathType Commands 6 For Word 2013.dotm“ 这三个文件。复制到Office 安装路径中的：<br>C:\Program Files\Microsoft Office\root\Office16\STARTUP 中。</p>
+<p>【注意】：如果想在PPT里显示Mathtype选项卡，可以加上文件MathType AddIn (PowerPoint 2013).ppam</p>
+<p>4.重启Word即可正常使用mathtype加载栏。</p>
+]]></content>
+      <categories>
+        <category>Some Tags</category>
+      </categories>
+  </entry>
 </search>
